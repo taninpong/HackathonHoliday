@@ -1,0 +1,7 @@
+{
+  "name": "HackathonHoliday",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
