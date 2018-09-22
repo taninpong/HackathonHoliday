@@ -9,6 +9,9 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MekaPage } from '../pages/meka/meka';
+import { PaoPage } from '../pages/pao/pao';
+import { TaoPage } from '../pages/tao/tao';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +19,8 @@ import { MekaPage } from '../pages/meka/meka';
     HomePage,
     ListPage,
     MekaPage
+    PaoPage,
+    TaoPage
   ],
   imports: [
     BrowserModule,
@@ -27,6 +32,8 @@ import { MekaPage } from '../pages/meka/meka';
     HomePage,
     ListPage,
     MekaPage
+    PaoPage,
+    TaoPage
   ],
   providers: [
     StatusBar,
