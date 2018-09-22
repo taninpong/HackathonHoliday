@@ -9,6 +9,8 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { PaoPage } from '../pages/pao/pao';
+import { TaoPage } from '../pages/tao/tao';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { PaoPage } from '../pages/pao/pao';
     HomePage,
     ListPage,
     PaoPage,
+    TaoPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { PaoPage } from '../pages/pao/pao';
     MyApp,
     HomePage,
     ListPage,
-    PaoPage
+    PaoPage,
+    TaoPage
   ],
   providers: [
     StatusBar,
