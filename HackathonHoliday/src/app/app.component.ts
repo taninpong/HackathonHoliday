@@ -9,6 +9,7 @@ import { MekaPage } from '../pages/meka/meka';
 import { TataePage } from '../pages/tatae/tatae';
 import { PaoPage } from '../pages/pao/pao';
 import { TaoPage } from '../pages/tao/tao';
+import { JokerPage } from '../pages/joker/joker';
 
 @Component({
   templateUrl: 'app.html'
@@ -27,10 +28,11 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
-      { title: 'Meka', component: MekaPage },
-      { title: 'Tatae', component: TataePage },
+      { title: 'เมฆ', component: MekaPage },
+      { title: 'เต', component: TataePage },
       { title: 'เปา', component: PaoPage },
       { title: 'เต๋า', component: TaoPage },
+      { title: 'โจ๊ะ', component: JokerPage }
     ];
 
   }
