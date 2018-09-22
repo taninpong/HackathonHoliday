@@ -9,6 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MekaPage } from '../pages/meka/meka';
+import { TataePage } from '../pages/tatae/tatae';
 import { PaoPage } from '../pages/pao/pao';
 import { TaoPage } from '../pages/tao/tao';
 
@@ -18,7 +19,8 @@ import { TaoPage } from '../pages/tao/tao';
     MyApp,
     HomePage,
     ListPage,
-    MekaPage
+    MekaPage,
+    TataePage,
     PaoPage,
     TaoPage
   ],
@@ -31,7 +33,8 @@ import { TaoPage } from '../pages/tao/tao';
     MyApp,
     HomePage,
     ListPage,
-    MekaPage
+    MekaPage,
+    TataePage,
     PaoPage,
     TaoPage
   ],
